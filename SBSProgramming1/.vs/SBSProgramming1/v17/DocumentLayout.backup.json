@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FF21AF4-3E0C-409C-855B-A31369C8EC43}|1_OT\\1_OT.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\1_OT\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{942E26FE-C9E0-4586-8C43-DC08B0D44C70}|2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218.vcxproj|C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{942E26FE-C9E0-4586-8C43-DC08B0D44C70}|2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218.vcxproj|solutionrelative:2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF21AF4-3E0C-409C-855B-A31369C8EC43}|1_OT\\1_OT.vcxproj|C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\1_OT\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5FF21AF4-3E0C-409C-855B-A31369C8EC43}|1_OT\\1_OT.vcxproj|solutionrelative:1_OT\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c",
+              "RelativeDocumentMoniker": "2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c",
+              "RelativeToolTip": "2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-16T07:38:04.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\1_OT\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\1_OT\\main.cpp",
               "RelativeDocumentMoniker": "1_OT\\main.cpp",
-              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\1_OT\\main.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\1_OT\\main.cpp",
               "RelativeToolTip": "1_OT\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-15T07:32:10.157Z",
               "EditorCaption": ""

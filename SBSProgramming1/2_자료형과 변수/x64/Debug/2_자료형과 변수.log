@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\2_자료형과 변수\main.c(53,9): warning C4476: 'printf' : 서식 지정자에 알 수 없는 형식 필드 문자 ')'이(가) 있습니다.
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\2_자료형과 변수\main.c(46,33): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\2_자료형과 변수\main.c(47,24): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\2_자료형과 변수\main.c(81,26): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  2_자료형과 변수.vcxproj -> C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\x64\Debug\2_자료형과 변수.exe
