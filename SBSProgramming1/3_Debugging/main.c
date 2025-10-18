@@ -3,7 +3,8 @@
 * 학습목표 : 디버깅 도구를 사용해보기
 */
 
-#include <stdio.h>			// 코드를 작성할 때 표준 입출력 헤더 (standard input output header)
+#include <stdio.h>			// 코드를 작성할 때 표준 입출력 헤더 (standard input output header)'
+#include <math.h>
 
 void Example() {
 	printf("안녕");
@@ -18,7 +19,6 @@ int main() {
 	* C언어를 이용해서 투사체의 포물선 운동을 표현하는 코드를 만들어줘.
 	* 예상 결과값을 추측하기 힘듦. 중단점을 건 다음에 어떻게 코드가 돌아가는지 살펴보기
 	*/
-
 
 
 	/*
@@ -44,10 +44,10 @@ int main() {
 	// 음수, 양수를 표현하기위해 제일 처음에 있는 비트를 부호 구분에 사용 0:양수 1:음수
 	// 따라서 -128~-1, 0~127까지 표현가능
 	// char num4에 200을 넣었는데 -56이 나온이유 -> 오버플로우
-	/*
+	
 	int num3 = 200;
 	char charMaxValue = 127;	// 7f
-	char num4 = 200;			// 문제가 있는지는 알겠는데 어떻게 고쳐야할까?
+	char num1 = 129;			// 문제가 있는지는 알겠는데 어떻게 고쳐야할까?
 
 
 	printf("num3의 값 : %d\n");
@@ -57,7 +57,7 @@ int main() {
 	short num5 = 200;
 	long num6 = 200;
 	long long num7 = 200;
-	*/
+	
 	// 실습 과제
 	// 리그오브레전드 공식.
 	// 이차 함수를 공식으로 사용하는 하나의 예제
@@ -89,10 +89,23 @@ int main() {
 	// 공식을 사용하는 경우 딸깍으로 가능
 	// 유저의 피드백 : 10레벨이 밸런스 개 망...
 	// 10레벨 디버스 -> 무엇이 의도한 내용과 달랐는가?
-
+	/*
+	int level = 1;
+	int Exp1 = 10;
+	int Exp2 = 20;
+	int Exp3 = 30;
+	int Exp4 = 40;
+	int Exp5 = 50;
+	int ExpMax = pow(Exp1, 2);
+	int Expcoef = 2;
 	
 
-
+	printf("현재 레벨 : %d, 요구 경험치량 : %d\n", 1, ExpMax * Exp1 * 1);
+	printf("현재 레벨 : %d, 요구 경험치량 : %d\n", 2, ExpMax * Exp2 * 2);
+	printf("현재 레벨 : %d, 요구 경험치량 : %d\n", 3, ExpMax * Exp3 * 3);
+	printf("현재 레벨 : %d, 요구 경험치량 : %d\n", 4, ExpMax * Exp4 * 4);
+	printf("현재 레벨 : %d, 요구 경험치량 : %d\n", 5, ExpMax * Exp5 * 5);
+	*/
 
 
 }
