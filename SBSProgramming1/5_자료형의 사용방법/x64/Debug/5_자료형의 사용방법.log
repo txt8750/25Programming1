@@ -1,0 +1,11 @@
+﻿  5_main.c
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\5_자료형의 사용방법\5_main.c(138,9): warning C4477: 'printf' : 서식 문자열 '%c'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\5_자료형의 사용방법\5_main.c(31,10): warning C4101: 'num1' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\5_자료형의 사용방법\5_main.c(32,10): warning C4101: 'num2' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\5_자료형의 사용방법\5_main.c(33,10): warning C4101: 'num3' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\5_자료형의 사용방법\5_main.c(15,7): warning C4101: 'number1' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\5_자료형의 사용방법\5_main.c(18,7): warning C4101: 'number4' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\5_자료형의 사용방법\5_main.c(19,12): warning C4101: 'number5' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\5_자료형의 사용방법\5_main.c(17,6): warning C4101: 'number3' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\5_자료형의 사용방법\5_main.c(16,8): warning C4101: 'number2' :참조되지 않은 지역 변수입니다.
+  5_자료형의 사용방법.vcxproj -> C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\x64\Debug\5_자료형의 사용방법.exe
