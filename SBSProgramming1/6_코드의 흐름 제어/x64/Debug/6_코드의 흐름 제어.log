@@ -1,0 +1,31 @@
+﻿  6_main.c
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(89,22): warning C4047: '=': 'char'의 간접 참조 수준이 'char [5]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(93,22): warning C4047: '=': 'char'의 간접 참조 수준이 'char [5]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(97,22): warning C4047: '=': 'char'의 간접 참조 수준이 'char [3]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(101,53): warning C4047: '==': 'int'의 간접 참조 수준이 'char [3]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(109,58): warning C4047: '==': 'int'의 간접 참조 수준이 'char [5]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(111,11): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(111,11): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(116,58): warning C4047: '==': 'int'의 간접 참조 수준이 'char [5]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(118,11): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(118,11): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(125,58): warning C4047: '==': 'int'의 간접 참조 수준이 'char [3]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(127,11): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(127,11): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(133,58): warning C4047: '==': 'int'의 간접 참조 수준이 'char [5]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(135,11): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(135,11): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(141,58): warning C4047: '==': 'int'의 간접 참조 수준이 'char [5]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(143,11): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(143,11): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(149,55): warning C4047: '==': 'int'의 간접 참조 수준이 'char [3]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(151,11): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(151,11): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(156,55): warning C4047: '==': 'int'의 간접 참조 수준이 'char [5]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(158,11): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(158,11): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(164,55): warning C4047: '==': 'int'의 간접 참조 수준이 'char [5]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(166,11): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(166,11): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(75,7): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'char [3]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(83,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
