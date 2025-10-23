@@ -1,6 +1,6 @@
 // 가위 바위 보 게임을 만들어보자
 // 실습 목표 : 다른 미니 게임을 직접 설계하고 코드를 작성해 보기
-
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -32,7 +32,7 @@ int main()
 	//  "&&" : AND
 	//  "||" : OR
 	// 컴퓨터에서 비교 연산을 진행했을 때 참이면 1, 거짓이면 0을 반환한다.
-	bool value =  5 < 3;	// 비교연산 결과를 변수에 저장할 때 char, short, int 등의 자료형을 사용하면 메모리를 낭비
+	//bool value =  5 < 3;	// 비교연산 결과를 변수에 저장할 때 char, short, int 등의 자료형을 사용하면 메모리를 낭비
 							// #include <stdbool.h>를 추가하고 bool 자료형을 사용하여 표현하면 좋음
 
 	// 주의사항 : if () 뒤에 ";"세미콜론 붙이면 안됨
@@ -63,27 +63,44 @@ int main()
 
 	// 플레이어가 선택한 결과를 저장
 	// 1. 가위, 2. 바위, 3. 보 (임의의 약속)
-	//int PlayerChoice = 1; // 플레이어는 가위를 선택
-	int ComputerChoice = 3; // 컴퓨터는 가위를 선택
-	//srand(time(NULL));
+	srand(time(NULL));	// 컴퓨터의 랜덤 출력 시 시드 값 초기화
+	int PlayerChoice; // 플레이어는 가위를 선택
+	int ComputerChoice; // 컴퓨터는 가위를 선택
 
 	int PlayerScore = 0;	// 플레이어의 점수
 	int ComputerScore = 0;	// 컴퓨터의 점수
 	int Round = 1;			// 현재 라운드
 	
-	char PlayerCharacter[10];
-	char ComputerCharacter = "보";
+	const char* PlayerCharacter = "가위";
+	const char* ComputerCharacter = "바위";
 	
 	// 가위바위보 10 번 반복
 	while (Round <= 10)
 	{
+
 		printf("==============================\n");
 		printf("Round : %d\n", Round);
 		printf("가위 바위 보를 선택하세요 : ");
-		scanf("%s\n", &PlayerCharacter[10]);
+		while (getchar() != '\n');			// 버퍼를 클리어하는 구문 추가, Version 1.0.3
+													// getchar() : 문자열을 입력 받는 함수
+													// 입력받은 문자가 \n이 아니면 아무것도 실행하지않음
+													// 입력받은 문자가 \n이라면 다음 구문 진행
+		scanf(" %d", &PlayerChoice);
 
-		//int ComputerChoice = rand() % 3;
-
+		ComputerChoice = rand() % 3+1;
+		if (PlayerChoice == 1)
+		{
+			PlayerCharacter = "가위";
+		}
+		else if (PlayerChoice == 2)
+		{
+			PlayerCharacter = "바위";
+		}
+		else if (PlayerChoice == 3)
+		{
+			PlayerCharacter = "보";
+		}
+		
 		if (ComputerChoice == 1)
 		{
 			ComputerCharacter = "가위";
@@ -98,22 +115,22 @@ int main()
 		}
 		
 		// 플레이어가 가위
-		if (PlayerCharacter == "가위" && ComputerChoice == "보")
+		if (PlayerChoice == 1 && ComputerChoice == 3)
 		{
-			printf("플레이어 : %s, 컴퓨터 : %s\n", &PlayerCharacter, &ComputerCharacter);
+			printf("플레이어 : %s, 컴퓨터 : %s\n", PlayerCharacter, ComputerCharacter);
 			printf("플레이어가 승리했습니다\n");
 			printf("==============================\n");
 			PlayerScore++;
 			Round++;
 		}
-		else if (PlayerCharacter == "가위" && ComputerChoice == "가위")
+		else if (PlayerChoice == 1 && ComputerChoice == 1)
 		{
 			printf("플레이어 : %s, 컴퓨터 : %s\n", PlayerCharacter, ComputerCharacter);
 			printf("비겼습니다\n");
 			printf("==============================\n");
 			Round++;
 		}
-		else if (PlayerCharacter == "가위" && ComputerChoice == "바위")
+		else if (PlayerChoice == 1 && ComputerChoice == 2)
 		{
 			printf("플레이어 : %s, 컴퓨터 : %s\n", PlayerCharacter, ComputerCharacter);
 			printf("플레이어가 패배했습니다\n");
@@ -122,7 +139,7 @@ int main()
 			Round++;
 		}
 		// 플레이어가 바위
-		else if (PlayerCharacter == "바위" && ComputerChoice == "보")
+		else if (PlayerChoice == 2 && ComputerChoice == 3)
 		{
 			printf("플레이어 : %s, 컴퓨터 : %s\n", PlayerCharacter, ComputerCharacter);
 			printf("플레이어가 패배했습니다\n");
@@ -130,7 +147,7 @@ int main()
 			ComputerScore++;
 			Round++;
 		}
-		else if (PlayerCharacter == "바위" && ComputerChoice == "가위")
+		else if (PlayerChoice == 2 && ComputerChoice == 1)
 		{
 			printf("플레이어 : %s, 컴퓨터 : %s\n", PlayerCharacter, ComputerCharacter);
 			printf("플레이어가 승리했습니다\n");
@@ -138,7 +155,7 @@ int main()
 			PlayerScore++;
 			Round++;
 		}
-		else if (PlayerCharacter == "바위" && ComputerChoice == "바위")
+		else if (PlayerChoice == 2 && ComputerChoice == 2)
 		{
 			printf("플레이어 : %s, 컴퓨터 : %s\n", PlayerCharacter, ComputerCharacter);
 			printf("비겼습니다\n");
@@ -146,14 +163,14 @@ int main()
 			Round++;
 		}
 		// 플레이어가 보
-		else if (PlayerCharacter == "보" && ComputerChoice == "보")
+		else if (PlayerChoice == 3 && ComputerChoice == 3)
 		{
 			printf("플레이어 : %s, 컴퓨터 : %s\n", PlayerCharacter, ComputerCharacter);
 			printf("비겼습니다\n");
 			printf("==============================\n");
 			Round++;
 		}
-		else if (PlayerCharacter == "보" && ComputerChoice == "가위")
+		else if (PlayerChoice == 3 && ComputerChoice == 1)
 		{
 			printf("플레이어 : %s, 컴퓨터 : %s\n", PlayerCharacter, ComputerCharacter);
 			printf("플레이어가 패배했습니다\n");
@@ -161,7 +178,7 @@ int main()
 			ComputerScore++;
 			Round++;
 		}
-		else if (PlayerCharacter == "보" && ComputerChoice == "바위")
+		else if (PlayerChoice == 3 && ComputerChoice == 2)
 		{
 			printf("플레이어 : %s, 컴퓨터 : %s\n", PlayerCharacter, ComputerCharacter);
 			printf("플레이어가 승리했습니다\n");
@@ -171,6 +188,7 @@ int main()
 		}
 		else
 		{
+
 			printf("예외가 발생 했습니다\n");
 			printf("==============================\n");
 		}
@@ -195,3 +213,16 @@ int main()
 	}
 	printf("==============================\n");
 }
+
+/*
+*   개발 History를 작성해보자
+*   가위 바위 보 게임을 만들기
+*   Version 1.0.0 : 가위 바위 보 결과를 출력하는 기능 구현
+*   Version 1.0.1 : 반복 및 입력 기능 구현  +  한글로 입력 받는 경우 버그가 발생, 문자로 입력하는 경우 오류 처리 반복 발생
+*																			  -> 문자 입력시 변수에 -243834 등 음수로 값이 저장 되는 경우 발생
+*   Version 1.0.2 : 컴퓨터가 입력 받는 값을 1~3까지의 랜덤 값으로 설정
+*   Version 1.0.3 : 문자 입력 시 발생하던 오류 개선 -> scanf()의 버퍼에 \n이 남아있어 계속 반복되는 오류 -> 버퍼의 \n을 클리어하는 구문 추가
+*					-> 첫번째 가위 바위 보 시작할때 숫자를 두번 입력해야하는 오류 발생
+* 
+*																			  
+*/

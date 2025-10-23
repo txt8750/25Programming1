@@ -1,13 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF2E4995-3DD4-424C-9565-E31E039CFA5D}|6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AF2E4995-3DD4-424C-9565-E31E039CFA5D}|6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4.vcxproj|C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AF2E4995-3DD4-424C-9565-E31E039CFA5D}|6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4.vcxproj|solutionrelative:6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{217E3458-1447-4519-B28D-559B3E61F7D8}|7_\uBC18\uBCF5\uBB38\\7_\uBC18\uBCF5\uBB38.vcxproj|C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\7_\uBC18\uBCF5\uBB38\\7_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{217E3458-1447-4519-B28D-559B3E61F7D8}|7_\uBC18\uBCF5\uBB38\\7_\uBC18\uBCF5\uBB38.vcxproj|solutionrelative:7_\uBC18\uBCF5\uBB38\\7_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,23 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "stdio.h",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "ViewState": "AgIAAHUCAAAAAAAAAAAMwIUCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-22T08:35:16.803Z",
+              "Title": "7_main.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\7_\uBC18\uBCF5\uBB38\\7_main.c",
+              "RelativeDocumentMoniker": "7_\uBC18\uBCF5\uBB38\\7_main.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\7_\uBC18\uBCF5\uBB38\\7_main.c",
+              "RelativeToolTip": "7_\uBC18\uBCF5\uBB38\\7_main.c",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-23T07:07:37.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "6_main.c",
-              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_main.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_main.c",
               "RelativeDocumentMoniker": "6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_main.c",
-              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_main.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25Programming1\\SBSProgramming1\\6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_main.c",
               "RelativeToolTip": "6_\uCF54\uB4DC\uC758 \uD750\uB984 \uC81C\uC5B4\\6_main.c",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAAMAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAANoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-22T07:03:05.603Z",
               "EditorCaption": ""
