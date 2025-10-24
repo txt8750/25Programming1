@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 // (1) 가위 바위 보 게임을 한글로 표현해보자
 // - 유저, 컴퓨터가 가위 바위 보를 진행
 // - 유저 : 가위, 바위, 보 중에 하나를 선택 -> 선택 단계
@@ -52,6 +53,7 @@ int main()
 	*/
 	printf("==============================\n");
 	printf("가위 바위 보 게임\n\n");
+	printf("엔터키를 눌러 게임을 시작하세요.\n");
 	printf("==============================\n\n");
 
 	// 가위, 바위, 보를 플레이어가 직접 입력할 수 있게 구현(한글로 입력)
@@ -66,7 +68,6 @@ int main()
 	srand(time(NULL));	// 컴퓨터의 랜덤 출력 시 시드 값 초기화
 	int PlayerChoice; // 플레이어는 가위를 선택
 	int ComputerChoice; // 컴퓨터는 가위를 선택
-
 	int PlayerScore = 0;	// 플레이어의 점수
 	int ComputerScore = 0;	// 컴퓨터의 점수
 	int Round = 1;			// 현재 라운드
@@ -77,15 +78,16 @@ int main()
 	// 가위바위보 10 번 반복
 	while (Round <= 10)
 	{
-
 		printf("==============================\n");
-		printf("Round : %d\n", Round);
-		printf("가위 바위 보를 선택하세요 : ");
+		
 		while (getchar() != '\n');			// 버퍼를 클리어하는 구문 추가, Version 1.0.3
+		printf("가위 바위 보를 선택하세요 : ");
+		printf("Round : %d\n", Round);
 													// getchar() : 문자열을 입력 받는 함수
 													// 입력받은 문자가 \n이 아니면 아무것도 실행하지않음
 													// 입력받은 문자가 \n이라면 다음 구문 진행
 		scanf(" %d", &PlayerChoice);
+
 
 		ComputerChoice = rand() % 3+1;
 		if (PlayerChoice == 1)
@@ -114,6 +116,7 @@ int main()
 			ComputerCharacter = "보";
 		}
 		
+
 		// 플레이어가 가위
 		if (PlayerChoice == 1 && ComputerChoice == 3)
 		{
@@ -196,22 +199,10 @@ int main()
 
 
 	// 플레이어의 점수 vs 컴퓨터의 점수 출력
-	printf("\n\n==============================\n");
-	printf("진행한 라운드 : %d\n", Round -1);
-	printf("플레이어 : %d vs 컴퓨터 : %d\n", PlayerScore, ComputerScore);
-	if (PlayerScore > ComputerScore)
-	{
-		printf("플레이어의 승리!\n");
-	}
-	else if (PlayerScore < ComputerScore)
-	{
-		printf("컴퓨터의 승리!\n");
-	}
-	else
-	{
-		printf("비겼습니다!\n");
-	}
-	printf("==============================\n");
+	GameResult(Round, PlayerScore, ComputerScore);
+}
+
+
 }
 
 /*
@@ -223,5 +214,6 @@ int main()
 *   Version 1.0.2 : 컴퓨터가 입력 받는 값을 1~3까지의 랜덤 값으로 설정
 *   Version 1.0.3 : 문자 입력 시 발생하던 오류 개선 -> scanf()의 버퍼에 \n이 남아있어 계속 반복되는 오류 -> 버퍼의 \n을 클리어하는 구문 추가
 *					-> 첫번째 가위 바위 보 시작할때 숫자를 두번 입력해야하는 오류 발생
+*   Version 1.0.4 : 엔터키를 입력해서 게임을 시작하는 걸로 숫자 두번 입려하는 오류 개선
 *																			  
 */
