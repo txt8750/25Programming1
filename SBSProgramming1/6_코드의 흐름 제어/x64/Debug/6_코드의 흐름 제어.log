@@ -1,3 +1,7 @@
 ﻿  6_main.c
-C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(67,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  6_코드의 흐름 제어.vcxproj -> C:\Users\Administrator\Desktop\25Programming1\SBSProgramming1\x64\Debug\6_코드의 흐름 제어.exe
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(68,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(202,2): warning C4013: 'GameResult'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\6_main.c(206,1): error C2059: 구문 오류: '}'
+  Game Result.c
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\6_코드의 흐름 제어\Game Result.c(5,1): error C1075: '{': 일치하는 토큰을 찾을 수 없습니다.
+  코드를 생성하고 있습니다...

@@ -34,6 +34,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include "math.h"				// SumFunction(), MinFunction(), MulFunction, DivFunction() 가 정의 된 헤더
+#include <stdbool.h>
+#include "Status.h"
 
 
 
@@ -45,55 +47,27 @@
 // 분배한 스탯이 main에서도 사용될려면 어떻게 사용해야할까?
 // 남은 코드 완성
 
-void SelectCharacter(int StartPoint)
+int main()
 {
-	printf("%d 스탯 포인트를 분배해주세요\n", StartPoint);
-	printf("STR : 0, DEX : 1, INT : 2, LUK : 3\n");
-	int SelectNumber = 0;
-	int RemainPoint = StartPoint;
-	int SpendPoint;
-	int STR, DEX, INT, LUK = 0;
-	printf("STR에 투자할 스탯 포인트 : ");
-	scanf("%d", &SelectNumber);
-	if (SelectNumber >= 0)
-	{
-		scanf("%d", &SpendPoint);
-
-		if (RemainPoint >= SpendPoint) 
-		{
-			RemainPoint -= SpendPoint;
-			STR += SpendPoint;
-		}
-		else
-		{
-			printf("남은 스탯 포인트가 부족합니다.\n");
-		}
-		printf("현재 스탯\nSTR : %d, DEX : %d, INT : %d, LUK : %d\n", STR, DEX, INT, LUK);
-		printf("남은 스탯 포인트 : %d\n", RemainPoint);
-	}
-	printf("STR : %d, DEX : %d, INT : %d, LUK : %d\n", STR, DEX, INT, LUK);
+	SelectCharacter(10);  // 스탯 포인트 10개를 배분하는 함수 "Status.h"에 정의 되어있음
+	return 0;
 }
 
-// SelectNumber : 스탯을 선택하는 숫자 STR : 0, DEX : 1, INT : 2, LUK : 3
-int StatusPoint(int STR, int DEX, int INT, int LUK, int Remain)
-{
-	int SpendPoint = 0;
-	printf("STR에 투자할 스탯 포인트 : ");
-	scanf("%d", &SpendPoint);
 
-	if (SpendPoint >= 0 && Remain >= SpendPoint)
-	{
-		Remain -= SpendPoint;
-		STR += SpendPoint;
-	}
-	else
-	{
-		printf("남은 스탯 포인트가 부족합니다.\n");
-	}
-	printf("현재 스탯\nSTR : %d, DEX : %d, INT : %d, LUK : %d\n", STR, DEX, INT, LUK);
-	printf("남은 스탯 포인트 : %d\n", Remain);
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 int SelectPlayerBehavior()
 {
 	int num = 0;
@@ -135,4 +109,4 @@ int main()
 	return 0; // 게임에서 종료 기능을 만들고 싶어요. return 하도록 만들면 된다. 어떤 숫자를 입력하면 프로그램을 종료하겠다
 
 }
-
+*/
