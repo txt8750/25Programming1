@@ -38,6 +38,15 @@
 #include "Status.h"
 
 
+typedef struct Stats
+{
+	int STR;						// 각 스탯을 int로 저장
+	int DEX;
+	int INT;
+	int LUK;
+
+}Stats;
+
 
 
 // 캐릭터를 선택해서 스탯을 분배하는 함수
@@ -49,7 +58,20 @@
 
 int main()
 {
-	SelectCharacter(10);  // 스탯 포인트 10개를 배분하는 함수 "Status.h"에 정의 되어있음
+	Stats Status;
+	int STR, DEX, INT, LUK;
+	
+	Status = SelectCharacter(10);  // 스탯 포인트 10개를 배분하는 함수 "Status.h"에 정의 되어있음;
+
+	STR = Status.STR;
+	DEX = Status.DEX;
+	INT = Status.INT;
+	LUK = Status.LUK;
+
+	printf("==================\n");
+	printf("STR : %d, DEX : %d, INT : %d, LUK : %d\n", STR, DEX, INT, LUK);
+	printf("==================\n");
+
 	return 0;
 }
 
