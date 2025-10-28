@@ -27,6 +27,7 @@
     <ProjectGuid>{23002586-9633-4678-bc55-e592dcba57f8}</ProjectGuid>
     <RootNamespace>My5자료형의사용방법</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>05_자료형의 사용방법</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

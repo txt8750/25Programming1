@@ -1,1 +1,15 @@
-﻿  3_Debugging.vcxproj -> D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\x64\Debug\3_Debugging.exe
+﻿  3_main.c
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\3_Debugging\3_main.c(53,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\3_Debugging\3_main.c(53,9):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+      D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\3_Debugging\3_main.c(53,9):
+      누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+  
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\3_Debugging\3_main.c(54,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\3_Debugging\3_main.c(54,9):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+      D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\3_Debugging\3_main.c(54,9):
+      누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+  
+  LINK : D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\x64\Debug\3_Debugging.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  3_Debugging.vcxproj -> D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\x64\Debug\3_Debugging.exe

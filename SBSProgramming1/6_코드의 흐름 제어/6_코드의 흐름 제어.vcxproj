@@ -24,6 +24,7 @@
     <ProjectGuid>{af2e4995-3dd4-424c-9565-e31e039cfa5d}</ProjectGuid>
     <RootNamespace>My6코드의흐름제어</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>06_코드의 흐름 제어</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
