@@ -23,18 +23,16 @@ int CalculateBoundaryX(int StartMapX);
 int CalculateBoundaryY(int StartMapY);
 bool CheckPlayerIsBoundary();
 
-int StartMapX = 1;
-int StartMapY = 1;
-int playerX;
-int playerY;
+
+int PLAYERX;
+int PLAYERY;
 
 
 int main()
 {
-	bool Player = CheckPlayerIsBoundary();
-	if (Player == true)
+	if (CheckPlayerIsBoundary())
 	{
-		printf("현재 플레이어의 좌표는 (%d,%d)입니다.\n", playerX, playerY);
+		printf("현재 플레이어의 좌표는 (%d,%d)입니다.\n", PLAYERX, PLAYERY);
 	}
 	else
 	{

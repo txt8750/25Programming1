@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64A64565-6DFD-44D2-9DDF-1470B307A640}|10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{64A64565-6DFD-44D2-9DDF-1470B307A640}|10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9.vcxproj|solutionrelative:10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64A64565-6DFD-44D2-9DDF-1470B307A640}|10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{64A64565-6DFD-44D2-9DDF-1470B307A640}|10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9.vcxproj|solutionrelative:10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B02EF507-C82C-4FD6-99D9-FB544B5F6F1C}|11_\uC790\uB8CC\uD615\uACFC \uBC30\uC5F4\\11_\uC790\uB8CC\uD615\uACFC \uBC30\uC5F4.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\11_\uC790\uB8CC\uD615\uACFC \uBC30\uC5F4\\11_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B02EF507-C82C-4FD6-99D9-FB544B5F6F1C}|11_\uC790\uB8CC\uD615\uACFC \uBC30\uC5F4\\11_\uC790\uB8CC\uD615\uACFC \uBC30\uC5F4.vcxproj|solutionrelative:11_\uC790\uB8CC\uD615\uACFC \uBC30\uC5F4\\11_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,33 +13,20 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 193,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Game.h",
-              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.h",
-              "RelativeDocumentMoniker": "10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.h",
-              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.h",
-              "RelativeToolTip": "10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-28T08:21:31.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Game.c",
-              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.c",
-              "RelativeDocumentMoniker": "10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.c",
-              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.c",
-              "RelativeToolTip": "10_\uC0C1\uC218\uC640 \uC5F4\uAC70\uD615 \uC0AC\uC6A9\\Game.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "11_main.c",
+              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\11_\uC790\uB8CC\uD615\uACFC \uBC30\uC5F4\\11_main.c",
+              "RelativeDocumentMoniker": "11_\uC790\uB8CC\uD615\uACFC \uBC30\uC5F4\\11_main.c",
+              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\11_\uC790\uB8CC\uD615\uACFC \uBC30\uC5F4\\11_main.c",
+              "RelativeToolTip": "11_\uC790\uB8CC\uD615\uACFC \uBC30\uC5F4\\11_main.c",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-28T08:28:47.016Z",
+              "WhenOpened": "2025-10-29T07:18:11.366Z",
               "EditorCaption": ""
             }
           ]
