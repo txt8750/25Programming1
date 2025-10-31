@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_자료형과 배열", "1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_2차원 배열", "12_2차원 배열\12_2차원 배열.vcxproj", "{1C25C6FA-62E8-43DA-8059-993CB5241632}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_포인터에 대한 이해", "13_포인터에 대한 이해\13_포인터에 대한 이해.vcxproj", "{A633DB03-A473-43A0-BE0F-A7B58CE3A262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{1C25C6FA-62E8-43DA-8059-993CB5241632}.Release|x64.Build.0 = Release|x64
 		{1C25C6FA-62E8-43DA-8059-993CB5241632}.Release|x86.ActiveCfg = Release|Win32
 		{1C25C6FA-62E8-43DA-8059-993CB5241632}.Release|x86.Build.0 = Release|Win32
+		{A633DB03-A473-43A0-BE0F-A7B58CE3A262}.Debug|x64.ActiveCfg = Debug|x64
+		{A633DB03-A473-43A0-BE0F-A7B58CE3A262}.Debug|x64.Build.0 = Debug|x64
+		{A633DB03-A473-43A0-BE0F-A7B58CE3A262}.Debug|x86.ActiveCfg = Debug|Win32
+		{A633DB03-A473-43A0-BE0F-A7B58CE3A262}.Debug|x86.Build.0 = Debug|Win32
+		{A633DB03-A473-43A0-BE0F-A7B58CE3A262}.Release|x64.ActiveCfg = Release|x64
+		{A633DB03-A473-43A0-BE0F-A7B58CE3A262}.Release|x64.Build.0 = Release|x64
+		{A633DB03-A473-43A0-BE0F-A7B58CE3A262}.Release|x86.ActiveCfg = Release|Win32
+		{A633DB03-A473-43A0-BE0F-A7B58CE3A262}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

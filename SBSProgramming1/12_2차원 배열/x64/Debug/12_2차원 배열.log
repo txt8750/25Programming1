@@ -1,4 +1,2 @@
 ﻿  12_main.c
-D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\12_2차원 배열\12_main.c(46,9): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
-D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\12_2차원 배열\12_main.c(46,9): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
   12_2차원 배열.vcxproj -> D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\x64\Debug\12_2차원 배열.exe

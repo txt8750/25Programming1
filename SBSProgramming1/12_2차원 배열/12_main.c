@@ -25,11 +25,7 @@ const char WALL = '#';
 
 // 플레이어의 이동을 구현하는 코드를 AI를 통해 작성
 
-void playermove(int x, int y)
-{
-	COORD pos = { x,y };
-	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
-}
+void playermove(int* x, int* y);
 
 void clrscr()
 {
@@ -43,6 +39,8 @@ int main()
 
 	int playerX = 2;
 	int playerY = 4;
+	int* playerXPtr = &playerX;
+	int* playerYPtr = &playerY;
 	int key;
 
 	char Map[MAPSIZE][MAPSIZE * 2] =
@@ -82,46 +80,74 @@ int main()
 		}
 	}
 
+
 	while (1)
 	{
 		clrscr();
-		// 게임 로직. 5Frame 후에 몬스터가 x방향으로 1 움직였다. -> x+1
+
 		// (3,5)에서 플레이어가 생성된다
 		Map[playerY][playerX] = PLAYER;
 		// (5,7)에서 돈이 생성된다
 		Map[4][6] = MONEY;
-		// (8,8)에서 돈이 생성된다
+		// (8,8)에서 몬스터가 생성된다
 		Map[7][7] = MONSTER;
+
 
 		// 세팅된 맵을 화면에 출력
 		for (int h = 0; h < MAPSIZE; h++)
 		{
 			printf("%s\n", Map[h]);
 		}
-
 		key = _getch();
 		switch (key)
 		{
 		case 'w':
 		case 'W': // 상
-			Map[playerY][playerX] = ' ';
-			playerY--;
-			break;
+			if (Map[playerY - 1][playerX] == '#' || Map[playerY - 1][playerX] == '@')
+			{
+				break;
+			}
+			else
+			{
+				Map[playerY][playerX] = ' ';
+				playerY--;
+				break;
+			}
 		case 's':
 		case 'S': //하
-			Map[playerY][playerX] = ' ';
-			playerY++;
-			break;
+			if (Map[playerY + 1][playerX] == '#' || Map[playerY - +1][playerX] == '@')
+			{
+				break;
+			}
+			else {
+				Map[playerY][playerX] = ' ';
+				playerY++;
+				break;
+			}
 		case 'a':
 		case 'A': // 좌
-			Map[playerY][playerX] = ' ';
-			playerX--;
-			break;
+			if (Map[playerY][playerX - 1] == '#' || Map[playerY][playerX - 1] == '@')
+			{
+				break;
+			}
+			else
+			{
+				Map[playerY][playerX] = ' ';
+				playerX--;
+				break;
+			}
 		case 'd':
 		case 'D': // 우
-			Map[playerY][playerX] = ' ';
-			playerX++;
-			break;
+			if (Map[playerY][playerX + 1] == '#' || Map[playerY][playerX + 1] == '@')
+			{
+				break;
+			}
+			else
+			{
+				Map[playerY][playerX] = ' ';
+				playerX++;
+				break;
+			}
 		}
 		if (key == 'q' || key == 'Q')
 		{
@@ -132,4 +158,9 @@ int main()
 	// Render(); // 화면에 그려주세요.
 	// Buffer();
 	
+}
+
+void playermove(int* x, int* y, char Map)
+{
+	Map[y][x] = ' ';
 }
