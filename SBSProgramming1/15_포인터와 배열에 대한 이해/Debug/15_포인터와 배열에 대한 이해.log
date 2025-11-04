@@ -1,0 +1,4 @@
+﻿  15_main.c
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\15_포인터와 배열에 대한 이해\15_main.c(26,9): warning C4133: '=': 'float *'과(와) 'int *' 사이의 형식이 호환되지 않습니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\15_포인터와 배열에 대한 이해\15_main.c(23,15): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  15_포인터와 배열에 대한 이해.vcxproj -> D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\Debug\15_포인터와 배열에 대한 이해.exe

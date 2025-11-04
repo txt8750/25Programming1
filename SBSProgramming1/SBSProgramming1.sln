@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_포인터에 대한 이�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_상수 지시 포인터와 상수 포인터", "14_상수 지시 포인터와 상수 포인터\14_상수 지시 포인터와 상수 포인터.vcxproj", "{22C3750F-7664-42B0-9AC9-4CED799D34D9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15_포인터와 배열에 대한 이해", "15_포인터와 배열에 대한 이해\15_포인터와 배열에 대한 이해.vcxproj", "{86AAD984-5224-4B6D-A58B-6C361F42D378}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{22C3750F-7664-42B0-9AC9-4CED799D34D9}.Release|x64.Build.0 = Release|x64
 		{22C3750F-7664-42B0-9AC9-4CED799D34D9}.Release|x86.ActiveCfg = Release|Win32
 		{22C3750F-7664-42B0-9AC9-4CED799D34D9}.Release|x86.Build.0 = Release|Win32
+		{86AAD984-5224-4B6D-A58B-6C361F42D378}.Debug|x64.ActiveCfg = Debug|x64
+		{86AAD984-5224-4B6D-A58B-6C361F42D378}.Debug|x64.Build.0 = Debug|x64
+		{86AAD984-5224-4B6D-A58B-6C361F42D378}.Debug|x86.ActiveCfg = Debug|Win32
+		{86AAD984-5224-4B6D-A58B-6C361F42D378}.Debug|x86.Build.0 = Debug|Win32
+		{86AAD984-5224-4B6D-A58B-6C361F42D378}.Release|x64.ActiveCfg = Release|x64
+		{86AAD984-5224-4B6D-A58B-6C361F42D378}.Release|x64.Build.0 = Release|x64
+		{86AAD984-5224-4B6D-A58B-6C361F42D378}.Release|x86.ActiveCfg = Release|Win32
+		{86AAD984-5224-4B6D-A58B-6C361F42D378}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

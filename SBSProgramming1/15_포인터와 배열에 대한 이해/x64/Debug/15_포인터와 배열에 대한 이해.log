@@ -1,0 +1,9 @@
+﻿  practice.c
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\15_포인터와 배열에 대한 이해\practice.c(37,12): warning C4047: '함수': 'char *'의 간접 참조 수준이 'const char *[3]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\15_포인터와 배열에 대한 이해\practice.c(37,12): warning C4024: 'PrintText': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\15_포인터와 배열에 대한 이해\practice.c(38,12): warning C4047: '함수': 'char *'의 간접 참조 수준이 'const char *[3]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\15_포인터와 배열에 대한 이해\practice.c(38,12): warning C4024: 'PrintText': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\15_포인터와 배열에 대한 이해\practice.c(39,12): warning C4047: '함수': 'char *'의 간접 참조 수준이 'const char *[3]'과(와) 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\15_포인터와 배열에 대한 이해\practice.c(39,12): warning C4024: 'PrintText': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\15_포인터와 배열에 대한 이해\practice.c(46,28): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+  15_포인터와 배열에 대한 이해.vcxproj -> D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\x64\Debug\15_포인터와 배열에 대한 이해.exe

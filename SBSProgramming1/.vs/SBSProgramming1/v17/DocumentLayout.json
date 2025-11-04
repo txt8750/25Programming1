@@ -3,11 +3,16 @@
   "WorkspaceRootPath": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22C3750F-7664-42B0-9AC9-4CED799D34D9}|14_\uC0C1\uC218 \uC9C0\uC2DC \uD3EC\uC778\uD130\uC640 \uC0C1\uC218 \uD3EC\uC778\uD130\\14_\uC0C1\uC218 \uC9C0\uC2DC \uD3EC\uC778\uD130\uC640 \uC0C1\uC218 \uD3EC\uC778\uD130.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\14_\uC0C1\uC218 \uC9C0\uC2DC \uD3EC\uC778\uD130\uC640 \uC0C1\uC218 \uD3EC\uC778\uD130\\14_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{22C3750F-7664-42B0-9AC9-4CED799D34D9}|14_\uC0C1\uC218 \uC9C0\uC2DC \uD3EC\uC778\uD130\uC640 \uC0C1\uC218 \uD3EC\uC778\uD130\\14_\uC0C1\uC218 \uC9C0\uC2DC \uD3EC\uC778\uD130\uC640 \uC0C1\uC218 \uD3EC\uC778\uD130.vcxproj|solutionrelative:14_\uC0C1\uC218 \uC9C0\uC2DC \uD3EC\uC778\uD130\uC640 \uC0C1\uC218 \uD3EC\uC778\uD130\\14_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{86AAD984-5224-4B6D-A58B-6C361F42D378}|15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86AAD984-5224-4B6D-A58B-6C361F42D378}|15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574.vcxproj|solutionrelative:15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{86AAD984-5224-4B6D-A58B-6C361F42D378}|15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86AAD984-5224-4B6D-A58B-6C361F42D378}|15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574.vcxproj|solutionrelative:15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AAD984-5224-4B6D-A58B-6C361F42D378}|15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86AAD984-5224-4B6D-A58B-6C361F42D378}|15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574.vcxproj|solutionrelative:15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,26 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "stdio.h",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "ViewState": "AgIAAHICAAAAAAAAAAAowIUCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-03T08:02:30.323Z",
+              "DocumentIndex": 2,
+              "Title": "15_main.c",
+              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_main.c",
+              "RelativeDocumentMoniker": "15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_main.c",
+              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_main.c",
+              "RelativeToolTip": "15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\15_main.c",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-04T07:00:57.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "14_main.c",
-              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\14_\uC0C1\uC218 \uC9C0\uC2DC \uD3EC\uC778\uD130\uC640 \uC0C1\uC218 \uD3EC\uC778\uD130\\14_main.c",
-              "RelativeDocumentMoniker": "14_\uC0C1\uC218 \uC9C0\uC2DC \uD3EC\uC778\uD130\uC640 \uC0C1\uC218 \uD3EC\uC778\uD130\\14_main.c",
-              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\14_\uC0C1\uC218 \uC9C0\uC2DC \uD3EC\uC778\uD130\uC640 \uC0C1\uC218 \uD3EC\uC778\uD130\\14_main.c",
-              "RelativeToolTip": "14_\uC0C1\uC218 \uC9C0\uC2DC \uD3EC\uC778\uD130\uC640 \uC0C1\uC218 \uD3EC\uC778\uD130\\14_main.c",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAH0AAAAJAAAAAAAAAA==",
+              "Title": "practice.c",
+              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.c",
+              "RelativeDocumentMoniker": "15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.c",
+              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.c",
+              "RelativeToolTip": "15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.c",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-03T06:59:44.681Z",
+              "WhenOpened": "2025-11-04T08:19:35.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "practice.h",
+              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.h",
+              "RelativeDocumentMoniker": "15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.h",
+              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\1.GameProgram_1\\25Programming1\\SBSProgramming1\\15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.h",
+              "RelativeToolTip": "15_\uD3EC\uC778\uD130\uC640 \uBC30\uC5F4\uC5D0 \uB300\uD55C \uC774\uD574\\practice.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-04T08:19:05.002Z",
               "EditorCaption": ""
             }
           ]
