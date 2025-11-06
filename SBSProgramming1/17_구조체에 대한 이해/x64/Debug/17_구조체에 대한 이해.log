@@ -1,0 +1,13 @@
+﻿  17_main.c
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\17_구조체에 대한 이해\17_main.c(45,6): warning C4030: 첫째 정식 매개 변수 목록이 둘째 목록보다 깁니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\17_구조체에 대한 이해\17_main.c(45,6): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\17_구조체에 대한 이해\17_main.c(90,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+      D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\17_구조체에 대한 이해\17_main.c(90,9):
+      서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\17_구조체에 대한 이해\17_main.c(104,9): warning C4476: 'printf' : 서식 지정자에 알 수 없는 형식 필드 문자 '\n'이(가) 있습니다.
+D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\17_구조체에 대한 이해\17_main.c(105,106): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+      D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\17_구조체에 대한 이해\17_main.c(105,106):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 4개 필요하지만 5개가 제공되었습니다.
+  
+  17_구조체에 대한 이해.vcxproj -> D:\SBS게임아카데미\1.GameProgram_1\25Programming1\SBSProgramming1\x64\Debug\17_구조체에 대한 이해.exe
